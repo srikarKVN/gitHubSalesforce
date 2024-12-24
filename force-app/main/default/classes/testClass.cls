@@ -2,7 +2,7 @@ public with sharing class testClass {
     public testClass() {
       
     }
-    public static void returnStrin() {
+    public static void returnString() {
         System.debug('Returned a string');
     }
     public static Integer returnSum(Integer num1,Integer num2) {
