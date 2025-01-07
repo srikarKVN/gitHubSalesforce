@@ -13,9 +13,6 @@ public with sharing class ContactCalculatorTest {
             Account a=new Account();
             a.Name='Test '+i;
             TestAccounts2.add(a);
-            // TestAccId.add(a.Id);
-            // Contact c=new Contact(LastName='Test'+a.Name,FirstName='Test',AccountId=a.id);
-            // insert c;
         }
         insert TestAccounts2;
         for(Account a:TestAccounts2){
